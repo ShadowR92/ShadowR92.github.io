@@ -424,7 +424,7 @@ summary {
 .reviews_slider {/*чтобы слайдер не прыгал*/
     height: 560px;/*высота слайдера*/
     background: #000;
-    background: red;
+
 }
 
 .reviews_slider.slick_initialized { /*чтобы слайдер не прыгал*/
@@ -486,6 +486,7 @@ summary {
 details[open] > summary {
     border: none;
     background: #000;
+    background: #ec0505;
     color: #fff;
 }
 
