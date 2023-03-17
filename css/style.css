@@ -374,7 +374,7 @@ summary {
 }
 
 .b4_container {
-    height: 100vh /*560px;*/
+    height: 560px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -405,14 +405,14 @@ summary {
 .b4_photo {
     display: flex;
     justify-content: space-around;
-    height: 100vh;/*560px;*/
+    height: 560px;
     overflow: hidden;/*чтобы не вылезало ничего*/
 
 }
 
 
 .reviews_img {
-    height: 100vh; /*560px*/
+    height: 560px;
     overflow: hidden;/*Если картинки большие чтобы не вылезали*/
 
 
@@ -421,7 +421,7 @@ summary {
 
 /*Слайдер*/
 .reviews_slider {/*чтобы слайдер не прыгал*/
-    height: 100vh;/*высота слайдера 560px*/
+    height: 560px;/*высота слайдера*/
     background: #000;
 
 }
@@ -486,7 +486,7 @@ details[open] > summary {
     border: none;
     background: #000;
     color: #fff;
-    background: #0ffd00;
+
 }
 
 
