@@ -409,12 +409,12 @@ summary {
     height: 560px;
     overflow: hidden;/*чтобы не вылезало ничего*/
 
-
 }
+
+
 .reviews_img {
     height: 560px;
     overflow: hidden;/*Если картинки большие чтобы не вылезали*/
-
 
 
 }
@@ -424,6 +424,7 @@ summary {
 .reviews_slider {/*чтобы слайдер не прыгал*/
     height: 560px;/*высота слайдера*/
     background: #000;
+    background: red;
 }
 
 .reviews_slider.slick_initialized { /*чтобы слайдер не прыгал*/
@@ -495,7 +496,7 @@ details[open] > summary {
 
 @media  (max-width: 991px) {
     .b1 {
-        height: 550px;
+        height: 100vh;
     }
 
     .b1_container {
