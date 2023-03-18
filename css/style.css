@@ -299,7 +299,7 @@ p {
 ====================================================*/
 .b3 {
 
-    padding-top: 50px;
+    padding-top: 20px;
     background: #fff url("../img/blocks/bg3.jpg") center no-repeat;
     background-size: cover;
     height: 100vh;
@@ -374,7 +374,7 @@ summary {
 }
 
 .b4_container {
-    height: 560px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -405,14 +405,21 @@ summary {
 .b4_photo {
     display: flex;
     justify-content: space-around;
-    height: 560px;
+    height: auto;
     overflow: hidden;/*чтобы не вылезало ничего*/
 
 }
 
+.photo {
+    height: 590px;
+}
+
 
 .reviews_img {
-    height: 560px;
+    height: 100%;
+    width: 100%;
+    /*Высота картинки*/
+    object-fit: contain;
     overflow: hidden;/*Если картинки большие чтобы не вылезали*/
 
 
@@ -421,7 +428,7 @@ summary {
 
 /*Слайдер*/
 .reviews_slider {/*чтобы слайдер не прыгал*/
-    height: 560px;/*высота слайдера*/
+    height: auto;/*высота слайдера*/
     background: #000;
 
 }
@@ -639,6 +646,9 @@ details[open] > summary {
     width: 90%;
 
 }
+
+
+
 }
 
 
@@ -696,10 +706,8 @@ height: 90%;
 
 
 
+@media (max-width: 281px) {
 
-
-
-
-
+}
 
 
