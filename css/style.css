@@ -519,6 +519,7 @@ details[open] > summary {
 ====================================================*/
 .footer {
     background-color: #000;
+    background: #0c0a05;
 
 
 }
@@ -559,11 +560,16 @@ details[open] > summary {
     color: rgba(255, 255, 255, .5);
 
 }
+
+.mail {
+    color: rgba(255, 255, 255, .5);
+}
 /* Сopyright
 ====================================================*/
 .copyright {
     padding: 5px 0;
     background-color: #000;
+    background: #0c0a05;
 
 
 }
