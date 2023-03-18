@@ -298,7 +298,6 @@ p {
 /* Block-3
 ====================================================*/
 .b3 {
-
     padding-top: 25px;
     background: #fff url("../img/blocks/bg3.jpg") center no-repeat;
     background-size: cover;
@@ -365,7 +364,7 @@ summary {
 /* Block-4
 ====================================================*/
 .b4 {
-    height: 100vh;
+    height: auto;
     padding-top: 22px;
     background: #000;
 
@@ -383,7 +382,10 @@ summary {
 }
 
 .b4_title {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 
 
 }
@@ -401,6 +403,24 @@ summary {
     color:rgb(255, 255, 255);
     font-family:Tahoma, Geneva, sans-serif;
 }
+
+/*Стрелка*/
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 25px solid #fff;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #fff;
+}
+
 
 .b4_photo {
     display: flex;
@@ -495,8 +515,64 @@ details[open] > summary {
     color: #fff;
 
 }
+/* Footer
+====================================================*/
+.footer {
+    background-color: #000;
 
 
+}
+
+.f_block {
+    flex-wrap: wrap;
+}
+
+
+.footer_inner {
+    display: flex;
+
+
+    padding: 5px 0;
+
+    flex-wrap: wrap;
+
+
+}
+.footer_block {
+
+    text-align: center;
+    width: 33.33333%;
+
+
+}
+
+.footer_title {
+    font-size: 14px;
+
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.footer_address {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .5);
+
+}
+/* Сopyright
+====================================================*/
+.copyright {
+    padding: 5px 0;
+    background-color: #000;
+
+
+}
+.copyright_text {
+    text-align: center;
+    font-size: 14px;
+    color: #808080;
+
+}
 
 /* Media
 ====================================================*/
@@ -635,8 +711,26 @@ details[open] > summary {
         background-size: cover;
     }
 }
+/*Footer*/
+@media (max-width: 550px) {
+    .footer_block {
+        width: 100%;
+    }
+    .f_1 {
+        display: none;/*скрыл "О Нас" на мобилках*/
+        order: 2
 
+    }
+    .f_2 {
+        order: 1
 
+    }
+    .f_3 {
+        display: none;/*скрыл "О Нас" на мобилках*/
+        order: 2
+    }
+
+}
 
 
 
