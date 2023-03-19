@@ -346,11 +346,17 @@ p {
 /*Список*/
 .list {
 font-size: 20px;
+    outline: none;/*убирает золотую рамку*/
 
 
 }
+
+
 ol {
     list-style-type: none;
+
+
+
 
 }
 
