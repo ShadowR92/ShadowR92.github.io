@@ -408,17 +408,17 @@ summary {
 .triangle-left {
     width: 0;
     height: 0;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 25px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid #fff;
 }
 
 .triangle-right {
     width: 0;
     height: 0;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 25px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #fff;
 }
 
 
@@ -562,6 +562,7 @@ details[open] > summary {
 }
 
 .mail {
+    text-decoration: none;
     color: rgba(255, 255, 255, .5);
 }
 /* Сopyright
@@ -575,8 +576,9 @@ details[open] > summary {
 }
 .copyright_text {
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     color: #808080;
+
 
 }
 
