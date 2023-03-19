@@ -508,13 +508,20 @@ summary {
 
 }
 
-/*Не работает*/
-details[open] > summary {
-    border: none;
-    background: #000;
-    color: #fff;
+/*Аккардион*/
+details[open] > summary {/*Заголовок*/
+
 
 }
+
+details[open] {
+    border: 1px solid black;
+    width: 100%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    padding: 5px;
+}
+
+
 /* Footer
 ====================================================*/
 .footer {
@@ -675,7 +682,7 @@ details[open] > summary {
 
     /*Вопросы по центру*/
     .b3_inner {
-        width: 100%;/*media*/
+        width: 95%;/*media*/
         padding-left: 0;/*media*/
     }
     .b3_container {
